@@ -13,5 +13,5 @@ The R script `run_analysis.R` performs the following steps:
 7. Merge the subject and activities with the training and test datasets using cbind function
 8. Convert the `activity` and `subject` columns into factors
 9. Calculate the mean by applying the melt and dcast functions
-10.Create a tidy dataset that consists of the average (mean) value of each variable for each subject and activity pair.
+10. Create a tidy dataset that consists of the average (mean) value of each variable for each subject and activity pair.
 11. Store the result in file `tidy.txt`
